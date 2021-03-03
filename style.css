@@ -13,16 +13,12 @@
 .bg-yellow{
     background-color: yellow;
 }
-.container{
-    height: 100vh;
-    margin:auto;
-    border: 1px solid;
-    position: relative;
-}
 img{
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
 }
 .model{
     width: 50%;
@@ -33,6 +29,7 @@ img{
 }
 .sections{
     height: 100vh;
+    position: relative;
 }
 .sections.bg-red,.bg-green .text{
     color: yellow;
@@ -60,7 +57,7 @@ img{
 .text{
     width:100%;
     height: 30%;
-    font-size: 10vw;
+    font-size: 5vw;
     text-align: center;
     position: absolute;
     bottom: 0;
